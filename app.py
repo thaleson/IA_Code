@@ -17,7 +17,7 @@ with open("static/styles.css") as f:
 # Title of the application
 st.title("🤖 Assistente de Código Inteligente")  # Adds the application title
 
-st.write("💻 Describe your problem or code and what you want, and receive suggestions and improvements!")
+st.write("💻 Descreva seu problema ou código e o que deseja, e receba sugestões e melhorias!")
 
 # Input area for code/problem with placeholder
 problem_input = st.text_area("📝 Insira seu código ou descreva seu problema aqui:", 
